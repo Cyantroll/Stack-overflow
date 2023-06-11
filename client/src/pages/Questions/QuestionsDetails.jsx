@@ -74,7 +74,7 @@ const Navigate = useNavigate()
 const dispatch = useDispatch()
 const User = useSelector((state) => (state.currentUserReducer))
 const location = useLocation()
-const url = 'https://stack-overflow-production-1fxk.onrender.com'
+const url = 'https://stackoverflow-da.netlify.app'
 
 console.log(location)
 

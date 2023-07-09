@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Link, useLocation, useNavigate} from 'react-router-dom'
+import {useLocation, useNavigate} from 'react-router-dom'
 import {useSelector} from 'react-redux'
 import './HomeMainbar.css'
 import QuestionList from './QuestionList'
@@ -56,12 +56,12 @@ const HomeMainbar = () => {
       questionTitle:"What is a function?",
       questionBody:"It meant to be",
       questionTags:["javascript","R","python"],
-      userPosted:"Dishita",
+      userPosted:"Divyansh",
       askedOn:"jan1",
       userId:1,
       answer:[{
         answerBody:"Answer",
-        userAnswered:'Jain',
+        userAnswered:'Asthana',
         answeredOn:"jan 2",
         userId:2,
       }]
